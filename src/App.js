@@ -7,7 +7,7 @@ import { Newsletter } from "./components/Newsletter";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-800">
       <Navbar />
       <Hero />
       <Analytics />
