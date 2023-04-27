@@ -18,11 +18,11 @@ export const Footer = () => {
           accusantium.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+          <FaFacebookSquare size={30} className="cursor-pointer" />
+          <FaInstagram size={30} className="cursor-pointer" />
+          <FaTwitterSquare size={30} className="cursor-pointer" />
+          <FaGithubSquare size={30} className="cursor-pointer" />
+          <FaDribbbleSquare size={30} className="cursor-pointer" />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
